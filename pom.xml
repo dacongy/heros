@@ -1,0 +1,23 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>sable.heros</groupId>
+  <artifactId>heros</artifactId>
+  <version>trunk</version>
+  <packaging>pom</packaging>
+  <name>heros</name>
+  <description>IFDS/IDE Solver for Soot</description>
+  <modules>
+    <module>maven</module>
+  </modules>
+  <properties>
+    <scm.branch>develop</scm.branch>
+  </properties>
+  <scm>
+    <url>http://github.com/Sable/heros/tree/${scm.branch}</url>
+    <connection>scm:git:git://github.com/Sable/heros.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/Sable/heros.git</developerConnection>
+  </scm>
+</project>
+ 
